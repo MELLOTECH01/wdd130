@@ -1,0 +1,39 @@
+form{
+    max-width: 600px;
+    padding: 1rem;
+    background-color: #d3d3d3;
+}
+span{
+    font-weight: bold;
+}
+label, input, select, textarea{
+    width: 90%;
+}
+.tag, .class{
+    width: 5%;
+    margin: 0;
+}
+#q1, #q2, #q3b, #q4 {
+    margin: 0 0 1rem;
+}
+.bottom{
+    background-color: black;
+    color: white;
+    padding-right: 100px;
+    padding-left: 20px;
+    margin-left: 10%;
+}
+#q5{
+    margin: 0.5rem 0 0 0;
+}
+button{
+    width: 90%;
+    background-color: rgb(8, 8, 124);
+    color: white;
+}
+h1, span {
+    color: rgb(8, 8, 124);
+}
+h1{
+    margin: 0.6rem 0;
+}

@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat&display=swap');
+
+:root {
+    --paragraph-font: Montserrat, san-serif;
+    --heading-font: "Bebas Neue", san-serif;
+
+    --primary-color: #0a2a73;
+    --secondary-color: #41a153;
+    --accent1-color: #0208ab;
+    --accent2-color: #7dd666;
+
+    --nav-background-color: #7dd666;
+    --nav-link-color: #110c0c;
+    --nav-hover-link-color: #c5e0d8;
+    --nav-hover-background-color: #b5ffe9;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+
+p {
+    padding: 25px;
+}
+
+body {
+    max-width: 960px;
+}
+
+.hero {
+    position: relative;
+}
+
+h1 {
+    position: absolute;
+    bottom: 250px;
+}
+
+article {
+    position: absolute;
+    bottom: 150px;
+}
+
+article img {
+    float: right;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
