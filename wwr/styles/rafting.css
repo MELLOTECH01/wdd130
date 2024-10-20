@@ -1,0 +1,91 @@
+:root {
+    --primary-color: #0096FF;
+    --secondary-color: #52489C;
+    --accent1-color: #EBEBEB;
+    --accent2-color: #CAD2C5;
+}
+
+h1 {
+    font-family: Georgia, Helvetica, sans-serif;
+    font-weight: 500;
+    background-color: var(--primary-color);
+    color: var(--accent1-color);
+    position: absolute;
+    left: 50%;
+    top: 4%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+    text-align: center;
+}
+
+h2 {
+    font-family: Georgia, Helvetica, sans-serif;
+    font-weight: 500;
+    color: var(--secondary-color);
+    text-align: center;
+}
+
+article p {
+    font-family: Merriweather, "Times New Roman", serif;
+    color: var(--accent1-color);
+    text-align: center;
+    margin-right: 10px;
+}
+
+article img {
+    float: right;
+    width: 50px;
+    height: auto;
+}
+
+p {
+    font-family: Merriweather, "Times New Roman", serif;
+    color: var(--accent1-color);
+    text-align: center;
+    display: inline-block;
+    margin: 0 auto;
+}
+
+a img {
+    text-decoration: none;
+}
+
+section {
+    background-color: var(--primary-color);
+}
+
+article {
+    background-color: var(--primary-color);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.hero {
+    position: relative;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+p img {
+    width: 300px;
+    height: auto;
+}
+
+footer p {
+    background-color: var(--primary-color);
+}
+
+footer img {
+    width: 60px;
+    height: auto;
+}
+
+footer {
+    text-align: center;
+}
